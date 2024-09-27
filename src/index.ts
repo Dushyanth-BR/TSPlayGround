@@ -1,27 +1,12 @@
-// PRESS F1 TO AUTO COMPILE TS TO JS
+// Configure Default Build Task
+// Watch tsconfig.json.
+// PRESS F1 TO RUN
+// Run build task
 
-import LeetCode from "./LeetCode";
 import LeetCodeNew from "./LeetCodeNew";
-import { ListNode } from "./ListNode";
 
-console.log("Hello world!");
+console.log("Welcome to TS Playground...");
 
 let leetCode = new LeetCodeNew();
-
-//leetCode.helloWorld();
-
-//leetCode.isPalindrome(121);
-
-//leetCode.romanToInt("MCMXCIV");
-
-// leetCode.longestCommonPrefix(["flower","flow","flight"]);
-
-// leetCode.isValid("()[]{}");
-
-// let list1 = new ListNode(1, new ListNode(2, new ListNode(4)));
-// let list2 = new ListNode(1, new ListNode(3, new ListNode(4)));
-
-//leetCode.mergeTwoLists(null, new ListNode(0));
-
 leetCode.callFunction();
 
