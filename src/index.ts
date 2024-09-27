@@ -5,7 +5,7 @@
 
 import LeetCodeNew from "./LeetCodeNew";
 
-console.log("Welcome to TS Playground...");
+console.log("Welcome to TS Playground...!!!");
 
 let leetCode = new LeetCodeNew();
 leetCode.callFunction();
